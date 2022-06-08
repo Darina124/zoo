@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper, .header, .footer{
+	min-width: 400px;
+	max-width: 1600px;
+}
+.wrapper {
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+
+	background-color: #d9d9d9;
+	border-left: #c4c4c4 solid 1px;
+	border-right: #c4c4c4 solid 1px;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.preheader{
+	width: 100%;
+
+	/* background: rgba(36,36,36,0.8);
+	height: 90px; */
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.header {
+	margin: 0 auto;
+	background: rgba(48,48,48);
+}
+nav
+{
+	min-height: 100%;
+}
+nav ul{
+	height: 90px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row-reverse;
+	text-align: center;
+	align-items: center;
+	justify-content: stretch;	
+}
+nav li{
+	text-transform: uppercase;	
+	padding: 10px;
+	margin: 5px;
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #FFF;
+}
+nav li a{
+    color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+}
+nav li a:hover {
+	color: #8C7AB4;
+	-webkit-transition: color 0.5s ease-in-out;
+}
+nav .last
+{
+	margin-right: auto;
+}
+header .logobox img.logo {
+	width: 64px;
+	height: auto;
+	vertical-align:middle;
+}
+header .logobox span {
+	vertical-align:middle;
+	font-weight: bold;
+	font-size: 32px;
+	color: #147E45;
+}
+header nav h1{
+	display: inline;
+}
+header .logobox:hover>span {
+	text-decoration: underline;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 100px 0 150px;
+
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.prefooter{
+	bottom: 0;
+	left: 0;
+	/* background: #333347; */
+}
+.footer {
+	margin: -150px auto 0;
+	height: 150px;
+	background: rgba(48,48,48);
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+}
+.footer a{
+	color: #F00;
+}
+.footer p, 
+.footer h3{
+	padding: 7px;
+}
+.footer .copyright,
+.footer .info_footer{
+	width: 100%;
+}
+/************************/
+h1, h2, h3, h4, h5, h6{
+	line-height: 1;
+}
+h1{
+	font-size: 48px;
+	font-weight: bold;
+}
+h2{
+	font-size: 30px;
+
+}
+h3{
+	font-size: 24px;
+	font-weight: normal;
+}
+h4{
+	font-size: 22px;
+}
+h5{
+	font-size: 16px;
+}
+h6{
+	font-size: 14px;
+}

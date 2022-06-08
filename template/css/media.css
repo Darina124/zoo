@@ -1,0 +1,29 @@
+.content h2{
+	margin-bottom: 15px;
+}
+.content hr{
+	margin-bottom: 15px;
+}
+.content h3{
+	text-align: left;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #ddd;
+	font-size: 40px;
+}
+.content audio{
+	margin-top: 20px;
+	width: 60%;
+}
+/* .content video{
+
+	margin-top: 20px;
+	border-radius: 20px;
+	width: 75%;
+} */
+.content{
+	text-align: center;
+}
+.content .all{
+	margin-bottom: 50px;
+}

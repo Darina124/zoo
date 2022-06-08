@@ -1,0 +1,35 @@
+.content h2{
+	margin-bottom: 15px;
+}
+.content hr{
+	margin-bottom: 15px;
+}
+.content h3{
+	text-align: left;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #ddd;
+}
+.content{
+	text-align: center;
+}
+
+.content .post{
+	text-align: left;
+	padding: 10px;
+	background-color: #ddd;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+.content .post p{
+	font-size: 14px;
+	
+	padding-bottom: 5px;
+}
+.content .post img{
+	
+}
+
+.warring{
+margin: 25px 20%;
+color: #F00;}

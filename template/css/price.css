@@ -1,0 +1,21 @@
+
+.content{
+	text-align: center;
+}
+
+.content .post{
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+
+.content .post img{
+	width: 100%;
+    height: auto;
+}
+
+.warring{
+margin: 25px 20%;
+color: #F00;
+}
